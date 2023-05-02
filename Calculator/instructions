@@ -1,0 +1,11 @@
+4 + 7
+2 + 3
+# pi = 3.1416
+2 * pi
+# var2 = 100
+# var = 10
+1 + pi * var2 + 3 - var + pow(2,4) + sqrt(9) - 4!
+1 + var
+|
+
+// Instructions such as "var + 1" or "pi * 3" are not available. You need "0 + var + 1". The help command is not available. Remember to previously declare in the terminal "const pi = 3.1416" and "# var = 100".
