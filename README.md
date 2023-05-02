@@ -29,5 +29,5 @@ The project files are saved in the "/Calculator" directory. To run the calculato
 
 - Use the 'from' command to load a list of operations from the "operations" file. Example: 'from operations; end;'.
 
-- Use the edit box to enter a list of operations. Example: 4*6; # var1 = 6; const pi = 3.1416; 5! + var1 - (2*pi); end;
+- Use the edit box to enter a list of operations. Example: 4/6; # var1 = 6; const pi = 3.1416; 5! + var1 - (2/pi); end;
 
