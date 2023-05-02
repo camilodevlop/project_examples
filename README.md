@@ -8,14 +8,19 @@ C++:
 
 2. Vector Template (Buscar proyecto y describirlo): 
 
+
+Tech stack: C++ 17 and FLTK 1.3.7 (It was used for developing the calculator GUI.)
+
+
 Python:
 
 1. Data-Access Layer: in this project, a Data-Access Layer (DAL) was implemented using Python. This DAL was used to access a database managed through PostgreSQL. The information in the database was contained in a table. A set of classes was programmed to interact with this table through CRUD statements. In addition, in this set were included the classes to manage both the connection pool and the user's instructions provided from a terminal.
-
 
 
 -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
 Calculator
 
-1. 
+The project files are saved in the /Calculator directory. To run the calculator, it is necessary to double click on the binary file EX169_calculator_to. The main components of the calculator's GUI are the edit box "Operations" and the buttons "Start" and "Quit". The operation must be entered in the edit box, then the button "Start" must be pressed to solve it. The calculator is finished if the button "Quit" is pressed.
+
+- 
