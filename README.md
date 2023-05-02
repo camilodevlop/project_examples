@@ -21,6 +21,9 @@ Python:
 
 Calculator
 
-The project files are saved in the /Calculator directory. To run the calculator, it is necessary to double click on the binary file EX169_calculator_to. The main components of the calculator's GUI are the edit box "Operations" and the buttons "Start" and "Quit". The operation must be entered in the edit box, then the button "Start" must be pressed to solve it. The calculator is finished if the button "Quit" is pressed.
+The project files are saved in the "/Calculator" directory. To run the calculator, it is necessary to double click on the binary file EX169_calculator_to. The main components of the calculator's GUI are the edit box "Operations" and the buttons "Start" and "Quit". The operation must be entered in the edit box, then the button "Start" must be pressed to solve it. The calculator is finished if the button "Quit" is pressed.
 
-- 
+- To run a list of commands from the file named "instructions" and save the results in the file named "results", enter: 'to results; from instructions; end; end;'. The double 'end;' is required to close the files. The files must be attached in the calculator's containing folder.
+
+- To save a list of results in the file "results", use the "to" command. Example: 'to results; 4+5; 6*8; end; end;'.
+
