@@ -32,6 +32,8 @@ The project files are saved in the "/Calculator" directory. To run the calculato
 
 - Use the 'to' command to save a list of results to the file "results". Example: 'to results; 4+5; 6*8; end; end;'. The first 'end;' finishes the instructions and the other one closes the file.
 
+<img width="1728" alt="Captura de pantalla 2023-05-02 a la(s) 10 56 27 p m" src="https://user-images.githubusercontent.com/116608938/235830268-51f3114e-f688-4b3c-b893-fe22139eb79f.png">
+
 - Use the 'from' command to load a list of operations from the "operations" file. Example: 'from operations; end;'.
 
 - Use the edit box to enter a list of operations. Example: '4/6; # var1 = 6; const pi = 3.1416; 5! + var1 - (2/pi); end;'.
