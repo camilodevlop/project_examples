@@ -1,0 +1,13 @@
+4 + 7
+2 + 3
+const pi = 3.1416
+2 * pi
+# variable = 100
+# variable_2 = 10
+1 + pi * variable + 3 - variable_2 + pow(2,4) + sqrt(9) - 4!
+1 + variable
+variable = 50
+variable_2 = 5
+1 + pi * variable + 3 - variable_2 + pow(2,4) + sqrt(9) - 4!
+help
+|
