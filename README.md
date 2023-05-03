@@ -23,11 +23,11 @@ Calculator
 
 The project files are saved in the "/Calculator" directory. To run the calculator, it is necessary to double click on the binary file EX169_calculator_to. The main components of the calculator's GUI are the edit box "Operations" and the buttons "Start" and "Quit". The operation must be entered in the edit box, then the button "Start" must be pressed to solve it. The calculator is finished if the button "Quit" is pressed.
 
-- Enter 'to results; from operations; end; end;' to run a list of operations from the file named "operations" and save the results to the file called "results". The double 'end;' is required to close the files. The files must be attached in the calculator's containing folder.
+- Enter 'to results; from operations; end; end;' to run a list of commands from the file named "operations" and save the results to the file called "results". The double 'end;' is required to close the files. The files must be attached in the calculator's containing folder.
 
 - Use the 'to' command to save a list of results to the file "results". Example: 'to results; 4+5; 6*8; end; end;'. The first 'end;' finishes the instructions and the other one closes the file.
 
 - Use the 'from' command to load a list of operations from the "operations" file. Example: 'from operations; end;'.
 
-- Use the edit box to enter a list of operations. Example: 4/6; # var1 = 6; const pi = 3.1416; 5! + var1 - (2/pi); end;
+- Use the edit box to enter a list of operations. Example: '4/6; # var1 = 6; const pi = 3.1416; 5! + var1 - (2/pi); end;'.
 
