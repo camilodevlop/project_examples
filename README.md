@@ -28,6 +28,8 @@ The project files are saved in the "/Calculator" directory. To run the calculato
 
 - Enter 'to results; from operations; end; end;' to run a list of commands from the file named "operations" and save the results to the file called "results". The double 'end;' is required to close the files. The files must be attached in the calculator's containing folder.
 
+<img width="1728" alt="Captura de pantalla 2023-05-02 a la(s) 10 34 36 p m" src="https://user-images.githubusercontent.com/116608938/235828304-eed6a115-b789-4066-8cf2-3e8e21eb256d.png">
+
 - Use the 'to' command to save a list of results to the file "results". Example: 'to results; 4+5; 6*8; end; end;'. The first 'end;' finishes the instructions and the other one closes the file.
 
 - Use the 'from' command to load a list of operations from the "operations" file. Example: 'from operations; end;'.
