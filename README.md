@@ -40,3 +40,5 @@ The project files are saved in the "/Calculator" directory. To run the calculato
 
 - Use the edit box to enter a list of operations. Example: '4/6; # var1 = 6; const pi = 3.1416; 5! + var1 - (2/pi); end;'.
 
+<img width="1728" alt="Captura de pantalla 2023-05-02 a la(s) 11 09 54 p m" src="https://user-images.githubusercontent.com/116608938/235831447-25399482-f4d2-49fe-8125-fe23891f178c.png">
+
