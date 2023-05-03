@@ -36,5 +36,7 @@ The project files are saved in the "/Calculator" directory. To run the calculato
 
 - Use the 'from' command to load a list of operations from the "operations" file. Example: 'from operations; end;'.
 
+<img width="1728" alt="Captura de pantalla 2023-05-02 a la(s) 11 01 53 p m" src="https://user-images.githubusercontent.com/116608938/235830745-80197d86-ce7a-45cf-8c07-d0f14bd25487.png">
+
 - Use the edit box to enter a list of operations. Example: '4/6; # var1 = 6; const pi = 3.1416; 5! + var1 - (2/pi); end;'.
 
