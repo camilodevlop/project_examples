@@ -9,8 +9,9 @@ C++:
     - FLTK was installed following the instructions of README.OSX.txt 
     - Build Command: g++ -w -Wall -std=c++17 GUI/Graph.cpp GUI/Window.cpp GUI/GUI.cpp GUI/Simple_window.cpp EX169_calculator_to.cpp `fltk-config --ldflags --use-images` -o EX169_calculator_to
 
-2. Vector Template (Buscar proyecto y describirlo): 
+2. Two STL containers: the simplified versions of "vector" and "list" were developed as practice. For these versions, the iterators and the functions size, capacity, reserve, push_back, resize, begin, end, insert and erase were implemented. The main language resources or techniques used for the development were the templates, RAII, and the functions for the dynamic management of memory (allocate, deallocate, construct and destroy).
 
+3. A simple text editor: this program is based on the STL containers "vector" and "list". By means of the linked list, the lines of the document are managed. Containers functionalities -such as iterators, back, size, push_back, begin, end, etc.- were used to develop the editor functions. These functions are: print_document, erase_line, match, find_txt, find_replace, char_number, words_whitespace, among others.
 
 Tech stack: C++ 17 and FLTK 1.3.8 (It was used for developing the calculator GUI.)
 
