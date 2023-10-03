@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome to the people management system.</h1>
+    <div>
+        Number of Persons: {{no_persons}}
+    </div>
+    <div>
+        <a href = "new_person"> Add Person </a>
+    </div>
+    <div>
+        <table border = "border">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {%for person in persons%}
+                <tr>
+                    <td>{{person.id}}</td>
+                    <td>{{person.name}} {{person.surname}}</td>
+                    <td>{{person.email}}</td>
+                    <td><a href = "person_details/{{person.id}}"> View </a></td>
+                    <td><a href = "edit_person/{{person.id}}"> Edit </a></td>
+                    <td><a href = "delete_person/{{person.id}}"> Delete </a></td>
+                </tr> 
+                {%endfor%}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <td><a href = "residences"> Residences </a></td>
+    </div>
+</body>
+</html>

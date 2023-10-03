@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <title>Residence Details</title>
+</head>
+<body>
+    <h1>Residence details:</h1>
+    <div>
+        Residence ID: {{residence.id}}
+    </div>
+    <div>
+        Street: {{residence.street}}
+    </div>
+    <div>
+        No street: {{residence.no_street}}
+    </div>
+    <div>
+        Country: {{residence.country}}
+    </div>
+
+    <a href = "{% url 'index_residences' %}">Back to start</a>
+</body>

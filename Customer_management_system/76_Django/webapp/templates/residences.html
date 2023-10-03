@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <title>Residences</title>
+</head>
+<body>
+    <h1>Welcome to the residence management system.</h1>
+    <div>
+        <a href = "new_residence"> Add Residence </a>
+    </div>
+    <div>
+        <table border = "border">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Street Name</th>
+                    <th>No Street</th>
+                    <th>Country</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {%for residence in residences%}
+                <tr>
+                    <td>{{residence.id}}</td>
+                    <td>{{residence.street}}</td>
+                    <td>{{residence.no_street}}</td>
+                    <td>{{residence.country}}</td>
+                    <td><a href = "residence_details/{{residence.id}}"> View </a></td>
+                    <td><a href = "edit_residence/{{residence.id}}"> Edit </a></td>
+                    <td><a href = "delete_residence/{{residence.id}}"> Delete </a></td>
+                </tr> 
+                {%endfor%}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <a href = "{% url 'index' %}">Back to start</a>
+    </div>
+</body>
+</html>
