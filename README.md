@@ -18,8 +18,11 @@ Tech stack: C++ 17 and FLTK 1.3.8 (It was used for developing the calculator GUI
 
 Python:
 
-1. Data-Access Layer: in this project, a Data-Access Layer (DAL) was implemented using Python. This DAL was used to access a database managed through PostgreSQL. The information in the database was contained in a table. A set of classes was programmed to interact with this table through CRUD statements. In addition, in this set were included the classes to manage both the connection pool and the user's instructions provided from a terminal.
+- Data-Access Layer: in this project, a Data-Access Layer (DAL) was implemented using Python. This DAL was used to access a database managed through PostgreSQL. The information in the database was contained in a table. A set of classes was programmed to interact with this table through CRUD statements.
 
+- Customer management system: this system was implemented by combining HTML templates, a web browser and the tools of Django. An alternative version of this project was programmed using Flask. The information of the customers was contained in a table managed through PostgreSQL and CRUD statements.
+
+Tech stack: Python 3.9.6, PostgreSQL 15, Django 4.2.4 and Flask 2.3.3.
 
 -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
