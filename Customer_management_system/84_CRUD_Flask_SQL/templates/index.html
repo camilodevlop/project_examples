@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>Person Management System</title>
+</head>
+<body>
+    <h1>Person Management System (PMS)</h1>
+    <div>
+        total_persons: {{total_persons}}
+    </div>
+    <div>
+        <a href = "{{url_for('add_person')}}">Add Person</a>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th> 
+                    <th>Name</th> 
+                    <th>Surname</th> 
+                    <th>email</th> 
+                    <th></th> 
+                    <th></th> 
+                    <th></th> 
+                </tr>
+            </thead>
+
+            <tbody>
+                {%for person in persons%}
+                    <tr>
+                        <td>{{person.id}}</td>
+                        <td>{{person.name}}</td>
+                        <td>{{person.surname}}</td>
+                        <td>{{person.email}}</td>
+                        <td><a href = "/view/{{person.id}}">View details</a></td>
+                        <td><a href = "/edit/{{person.id}}">Edit</a></td>
+                        <td><a href = "/remove/{{person.id}}">Remove</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+<html>
