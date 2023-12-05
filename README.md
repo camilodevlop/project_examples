@@ -13,6 +13,8 @@ C++:
 
 3. A simple text editor: this program is based on the STL containers "vector" and "list". By means of the linked list, the lines of the document are managed. Containers functionalities -such as iterators, back, size, push_back, begin, end, etc.- were used to develop the editor functions. These functions are: print_document, erase_line, match, find_txt, find_replace, char_number, words_whitespace, among others.
 
+4. This LRU Cache is a key/value pair data store that allows for random access and deletion of data items via the key. The cache has a predetermined capacity and once that is exceeded, stale (least recently used) data items are evicted. The term "used” is defined as new data added or existing data that is accessed. The type of the key and value is arbitrary, but well known at compile time and the LRU Cache is type homogenous once created. The key type is guaranteed to be less-than and equality comparable. Both the key and the value type are guaranteed to be copyable and movable. Upon creating the LRU cache, the desired capacity is specified. It is possible to clear the cache at any time. It is possible to get the cache capacity and item count at any time. Upon process termination, the cache is free to discard its contents.
+
 Tech stack: C++ 17 and FLTK 1.3.8 (It was used for developing the calculator GUI.)
 
 
