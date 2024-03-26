@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-8">
+                <h1 class="my-4">Available Currencies and Cryptos</h1>
+            </div>
+            <div class="col-4 text-right">
+                <a href="{{ url_for('convert') }}" class="btn btn-primary my-4">Return</a>
+            </div>
+        </div>
+        <div class="row">
+            {% for key, value in currencies_and_cryptos.items() %}
+                <div class="col-3">
+                    <p>{{ key }}: {{ value }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
