@@ -24,7 +24,9 @@ Python:
 
 - Customer management system: this system was implemented by combining HTML templates, a web browser and the tools of Django. An alternative version of this project was programmed using Flask. The information of the customers was contained in a table managed through PostgreSQL and CRUD statements.
 
-Tech stack: Python 3.9.6, PostgreSQL 15, Django 4.2.4 and Flask 2.3.3.
+- Currency conversion service: in this project, a currency conversion service was developed. For this case, FIAT and cryptocurrencies were taken into account. This service was implemented by using Flask, the Coinbase API, and PosgreSQL. Conversions between different currencies are carried out through the service. The currency data is requested from the Coinbase API. The service accepts the following parameters: the source currency, the amount to be converted, and the final currency. The authentication of the service is based on the Username/Password method.  Each user request is stored by the service, i.e., the date/time it was performed, its parameters and the response body. Each user may perform 100 requests per workday (Monday-Friday) and 200 requests per day on weekends. When the limit of requests is reached, the service returns an error message.
+
+Tech stack: Python 3.9.6, PostgreSQL 15, Django 4.2.4, the Coinbase API and Flask 2.3.3.
 
 -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
